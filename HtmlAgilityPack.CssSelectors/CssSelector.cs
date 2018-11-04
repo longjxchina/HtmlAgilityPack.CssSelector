@@ -85,7 +85,7 @@ namespace HapCss
         private static CssSelector[] FindSelectors()
         {
             var defaultAsm = typeof(CssSelector).GetTypeInfo().Assembly;
-            Func<Type, bool> typeQuery = type => type.GetTypeInfo().IsSubclassOf(typeof(CssSelector)) && !type.GetTypeInfo().IsAbstract;
+            bool typeQuery(Type type) => type.GetTypeInfo().IsSubclassOf(typeof(CssSelector)) && !type.GetTypeInfo().IsAbstract;
 
             var defaultTypes = defaultAsm.GetTypes().Where(typeQuery);
             var types = defaultAsm.GetTypes().Where(typeQuery);

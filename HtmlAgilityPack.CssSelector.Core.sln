@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.CssSelectors", "HtmlAgilityPack.CssSelectors\HtmlAgilityPack.CssSelectors.csproj", "{68D3092D-3CF4-4315-A7F7-3CE1BB22CB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlAgilityPack.CssSelector.Core", "HtmlAgilityPack.CssSelectors\HtmlAgilityPack.CssSelector.Core.csproj", "{68D3092D-3CF4-4315-A7F7-3CE1BB22CB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.CssSelectors.UnitTests", "HtmlAgilityPack.CssSelectors.UnitTests\HtmlAgilityPack.CssSelectors.UnitTests.csproj", "{A31E8668-543D-475F-9222-322EF304ADBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlAgilityPack.CssSelector.Core.UnitTests", "HtmlAgilityPack.CssSelectors.UnitTests\HtmlAgilityPack.CssSelector.Core.UnitTests.csproj", "{A31E8668-543D-475F-9222-322EF304ADBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA9A9DC-4BDC-483E-AB99-D053665E6E75}
 	EndGlobalSection
 EndGlobal
